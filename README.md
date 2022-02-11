@@ -1,8 +1,3 @@
-# ShopifyChallenge
-
-## Basic Requirements
----
-
 ### Create an inventory item:
 `POST` to `https://shopifychallenge-338719.ue.r.appspot.com/items/create`
 
