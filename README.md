@@ -1,5 +1,5 @@
 ### Create an inventory item:
-`POST` to `https://shopifychallenge-338719.ue.r.appspot.com/items/create`
+`POST` to `/items/create`
 
 _Sample Payload_: 
 ```
@@ -11,10 +11,10 @@ _Sample Payload_:
 ```
 
 ### Read inventory items:
-`GET` to `https://shopifychallenge-338719.ue.r.appspot.com/items/read`
+`GET` to `/items/read`
 
 ### Update inventory items:
-`PATCH` to `https://shopifychallenge-338719.ue.r.appspot.com/items/edit`
+`PATCH` to `/items/edit`
 
 _Sample Payload_: 
 ```
@@ -25,15 +25,15 @@ _Sample Payload_:
 ```
 
 ### Delete inventory items:
-`DELETE` to `https://shopifychallenge-338719.ue.r.appspot.com/items/delete/:id`
+`DELETE` to `/items/delete/:id`
 
-_Sample Request_: `https://shopifychallenge-338719.ue.r.appspot.com/items/delete/0c022abe-7960-11ec-af55-a70c809bdb5e`
+_Sample Request_: `/items/delete/0c022abe-7960-11ec-af55-a70c809bdb5e`
 
 ## Extra Requirement: Shipments
 ---
 
 ### Create a shipment
-`POST` to `https://shopifychallenge-338719.ue.r.appspot.com/shipments/create`
+`POST` to `/shipments/create`
 
 _Sample Payload_: 
 ```
@@ -53,4 +53,4 @@ _Sample Payload_:
 ```
 
 ### Read shipments:
-`GET` to `https://shopifychallenge-338719.ue.r.appspot.com/shipments/read`
+`GET` to `/shipments/read`
