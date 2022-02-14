@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ShopifyChallenge/router"
+	"go-rest-template/router"
 )
 
 func main() {
