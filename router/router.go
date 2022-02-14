@@ -1,7 +1,7 @@
 package router
 
 import (
-	"ShopifyChallenge/controllers"
+	"go-rest-template/controllers"
 	"github.com/gin-gonic/gin"
 )
 
